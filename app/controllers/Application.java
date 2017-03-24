@@ -1,16 +1,19 @@
 package controllers;
 
-import play.*;
-import play.mvc.*;
-
-import java.util.*;
-
-import models.*;
+import play.mvc.Controller;
 
 public class Application extends Controller {
 
     public static void index() {
         render();
     }
-
+    public static void contact() {
+        render("Application/contact.html");
+    }
+    public static void about() {
+        render("Application/about.html");
+    }
+    public static void service() {
+        render("Application/service.html");
+    }
 }

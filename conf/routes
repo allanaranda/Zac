@@ -4,7 +4,9 @@
 
 # Home page
 GET     /                                       Application.index
-
+GET     /contact                                Application.contact
+GET     /about                                  Application.about
+GET      /service                               Application.service
 # Ignore favicon requests
 GET     /favicon.ico                            404
 
